@@ -45,17 +45,6 @@ body {
   font-size: 16px;
   position: relative;
 }
-#es-nyx.es-nyx .es-kv__newness {
-  font-family: "Water Brush", cursive;
-  transform: rotate(-20deg);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 50px;
-  font-weight: 400;
-  display: block;
-  position: absolute;
-  left: -20px;
-  top: -100px;
-}
 #es-nyx.es-nyx .es-kv__text {
   margin: 0;
   padding: 8px;
@@ -194,54 +183,6 @@ body {
   max-width: 160px;
   height: auto;
 }
-#es-nyx.es-nyx .es-shades__mainText {
-  position: absolute;
-  bottom: 0px;
-  right: 80px;
-}
-#es-nyx.es-nyx .es-shades__title {
-  font-family: "Water Brush", cursive;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 50px;
-  font-weight: 400;
-  color: #fff;
-  position: relative;
-}
-#es-nyx.es-nyx .es-shades__title span {
-  margin-left: 70px;
-}
-#es-nyx.es-nyx .es-shades__title::before {
-  content: url(../img/arrow-5.png);
-  position: absolute;
-  left: -120px;
-  bottom: -100px;
-  display: none;
-}
-#es-nyx.es-nyx .es-shades__prdct {
-  display: block;
-  margin: 0px auto;
-  padding: 10px;
-}
-#es-nyx.es-nyx .es-shades__nameCtn {
-  background-color: #000;
-  margin: 0;
-}
-#es-nyx.es-nyx .es-shades__name {
-  color: #fff;
-  margin: 0;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 5px 10px;
-  font-size: 8px;
-}
-#es-nyx.es-nyx .es-shades__lipCtn {
-  margin: 0;
-  padding: 0;
-}
-#es-nyx.es-nyx .es-shades__lipImg {
-  margin: 0;
-  padding: 0;
-}
 #es-nyx.es-nyx .es-howto {
   background-color: #000;
 }
@@ -318,20 +259,6 @@ body {
   background: #03d6cd;
   background-size: cover;
 }
-#es-nyx.es-nyx .es-cross__title {
-  margin-left: 0px;
-  color: #fff;
-  font-family: "Water Brush", cursive;
-  font-size: 55px;
-  font-weight: 400;
-  text-shadow: 6px 0px 10px #000;
-}
-#es-nyx.es-nyx .es-cross__title--1 {
-  margin-left: 50px;
-}
-#es-nyx.es-nyx .es-cross__title--2 {
-  margin-left: 100px;
-}
 #es-nyx.es-nyx .es-cross__title-img {
   display: block;
   max-width: 100%;
@@ -395,15 +322,6 @@ body {
   background-color: transparent;
   outline: 4px solid #e0219a;
 }
-#es-nyx.es-nyx .es-footer {
-  width: 100%;
-  background-color: #000;
-  padding: 20px;
-}
-#es-nyx.es-nyx .es-footer__logo {
-  margin: 0 auto;
-  display: block;
-}
 
 @media (min-width: 560px) {
   #es-nyx.es-nyx .es-shades__ctn {
@@ -411,7 +329,7 @@ body {
     max-width: 550px;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 640px) {
   #es-nyx.es-nyx .es-logo {
     flex-wrap: nowrap;
   }
@@ -442,17 +360,6 @@ body {
   #es-nyx.es-nyx .es-kv__single {
     font-size: 25px;
   }
-  #es-nyx.es-nyx .es-kv__newness {
-    font-family: "Water Brush", cursive;
-    transform: rotate(-20deg);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 50px;
-    font-weight: 400;
-    display: block;
-    position: absolute;
-    left: -20px;
-    top: -60px;
-  }
   #es-nyx.es-nyx .es-logo {
     justify-content: space-between;
   }
@@ -472,29 +379,6 @@ body {
     top: 50%;
     transform: translateY(-70%);
   }
-  #es-nyx.es-nyx .es-shades__mainText {
-    position: absolute;
-    bottom: 50px;
-    right: 100px;
-  }
-  #es-nyx.es-nyx .es-shades__title {
-    font-family: "Water Brush", cursive;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 50px;
-    font-weight: 400;
-    color: #fff;
-    position: relative;
-  }
-  #es-nyx.es-nyx .es-shades__title span {
-    margin-left: 70px;
-  }
-  #es-nyx.es-nyx .es-shades__title::before {
-    content: url(../img/arrow-5.png);
-    position: absolute;
-    left: -120px;
-    bottom: -100px;
-    display: block;
-  }
   #es-nyx.es-nyx .es-shades__ctn {
     display: flex;
     flex-wrap: wrap;
@@ -504,13 +388,6 @@ body {
   #es-nyx.es-nyx .es-shades__ctn--0 {
     max-width: 750px;
   }
-  #es-nyx.es-nyx .es-shades__name {
-    font-size: 11px;
-  }
-  #es-nyx.es-nyx .es-shades__prdctCtn--0 {
-    height: 0%;
-    width: 0%;
-  }
   #es-nyx.es-nyx .es-cross {
     padding: 20px;
     padding-bottom: 50px;
@@ -519,20 +396,6 @@ body {
   }
   #es-nyx.es-nyx .es-cross__title-img {
     width: 58%;
-  }
-  #es-nyx.es-nyx .es-cross__title {
-    margin-left: 100px;
-    color: #fff;
-    font-family: "Water Brush", cursive;
-    font-size: 55px;
-    font-weight: 400;
-    text-shadow: 6px 0px 10px #000;
-  }
-  #es-nyx.es-nyx .es-cross__title--1 {
-    margin-left: 50px;
-  }
-  #es-nyx.es-nyx .es-cross__title--2 {
-    margin-left: 100px;
   }
   #es-nyx.es-nyx .es-cross__productsCtn {
     display: flex;
@@ -600,28 +463,6 @@ body {
   }
 }
 @media (min-width: 910px) {
-  #es-nyx.es-nyx .es-shades__mainText {
-    position: absolute;
-    bottom: 50px;
-    right: 100px;
-  }
-  #es-nyx.es-nyx .es-shades__title {
-    font-family: "Water Brush", cursive;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 50px;
-    font-weight: 400;
-    color: #fff;
-    position: relative;
-  }
-  #es-nyx.es-nyx .es-shades__title span {
-    margin-left: 70px;
-  }
-  #es-nyx.es-nyx .es-shades__title::before {
-    content: url(../img/arrow-5.png);
-    position: absolute;
-    left: -120px;
-    bottom: -100px;
-  }
   #es-nyx.es-nyx .es-shades__single--0 {
     display: block;
   }
